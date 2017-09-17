@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { PrincipalPage } from '../principal/principal';
+import { RecordatoriosPage } from '../recordatorios/recordatorios';
 
 @Component({
   selector: 'page-home',
@@ -17,6 +18,6 @@ export class HomePage {
   }
 
   openRecordatorios() {
-      //this.navCtrl.push(RecordatorioPage);
+      this.navCtrl.push(RecordatoriosPage);
   }
 }
